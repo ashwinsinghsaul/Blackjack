@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    background: 
+    height: 90vh;
+    background: url('https://image.freepik.com/free-vector/poker-table-background-green-color_47243-1068.jpg');
+  }
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3 {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #ffffff;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2 {
+
+color: #ffffffff;
+}
+
+.flex-blackjack-row-1 div {
+padding: 10px;
+flex: 1;
+text-align: center;
+height: 400px;
+color: #ffffff;
+}
+
+.flex-blackjack-row-1 img {
+    width: 25%;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 button {
+    color: #ffffff;
+}
+
+
+table, th, td {
+    padding: 5px;
+    border: 1px solid black;
+    color: #ffffff;
+}
